@@ -10,9 +10,9 @@ class SlingShot{
         this.pointB = pointB
         this.sling = Constraint.create(options);
         World.add(world, this.sling);
-        this.image1 = loadImage("sprites/sling1.png")
-        this.image2 = loadImage("sprites/sling2.png")
-        this.image3 = loadImage("sprites/sling3.png")
+        this.image1 = loadImage("sling1.png")
+        this.image2 = loadImage("sling2.png")
+        this.image3 = loadImage("sling3.png")
 
     }
 
